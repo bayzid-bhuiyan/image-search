@@ -1,7 +1,18 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
-.env
-.DS_Store
-temp.jpg
+*.pyd
+*.env
+venv/
+env/
+ENV/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# Large model files (optional)
+app/model/all-MiniLM-L6-v2/
+
+# temp files
+temp.jpg
